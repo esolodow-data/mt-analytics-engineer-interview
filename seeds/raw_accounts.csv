@@ -1,0 +1,101 @@
+account_id,account_name,industry,employee_count,country,source,created_at,status
+ACC001,TechCorp,Technology,500,USA,google_ads,2024-01-01,active
+ACC002,RetailGiant,Retail,1000,UK,linkedin,2024-01-01,active
+ACC003,FinanceHub,Financial,250,Canada,website,2024-01-02,churned
+ACC004,HealthCare Pro,Healthcare,750,Australia,conference,2024-01-02,active
+ACC005,EduTech,Education,100,USA,referral,2024-01-03,active
+ACC006,CloudSys Inc,Technology,300,USA,linkedin,2024-01-03,active
+ACC007,DataFlow Ltd,Technology,150,UK,google_ads,2024-01-03,active
+ACC008,Bank of Commerce,Financial,2000,USA,conference,2024-01-04,active
+ACC009,Insurance Direct,Financial,450,Canada,website,2024-01-04,churned
+ACC010,Global Retail Co,Retail,5000,USA,linkedin,2024-01-04,active
+ACC011,Tech Innovate,Technology,75,Germany,google_ads,2024-01-05,active
+ACC012,Healthcare Plus,Healthcare,1200,UK,referral,2024-01-05,active
+ACC013,EduOnline,Education,50,USA,website,2024-01-05,churned
+ACC014,Digital Solutions,Technology,800,France,linkedin,2024-01-06,active
+ACC015,Retail Express,Retail,350,Spain,google_ads,2024-01-06,active
+ACC016,MedTech Inc,Healthcare,600,USA,conference,2024-01-06,active
+ACC017,Learn Forward,Education,125,Canada,website,2024-01-07,active
+ACC018,FinTech Solutions,Financial,275,USA,linkedin,2024-01-07,active
+ACC019,Cloud Native Ltd,Technology,425,UK,referral,2024-01-07,active
+ACC020,Smart Systems,Technology,550,Germany,google_ads,2024-01-08,churned
+ACC021,Global Learn,Education,80,France,website,2024-01-08,active
+ACC022,Health Systems,Healthcare,900,USA,conference,2024-01-08,active
+ACC023,Retail Connect,Retail,1500,Canada,linkedin,2024-01-09,active
+ACC024,Tech Forward,Technology,225,USA,google_ads,2024-01-09,active
+ACC025,Banking Plus,Financial,3000,UK,referral,2024-01-09,active
+ACC026,Data Insights,Technology,175,USA,website,2024-01-10,churned
+ACC027,Medical Group,Healthcare,850,Australia,linkedin,2024-01-10,active
+ACC028,Edu Solutions,Education,150,USA,google_ads,2024-01-10,active
+ACC029,Finance Direct,Financial,400,Canada,conference,2024-01-11,active
+ACC030,Tech Pioneers,Technology,275,UK,website,2024-01-11,active
+ACC031,Retail Solutions,Retail,750,USA,linkedin,2024-01-11,churned
+ACC032,Health Direct,Healthcare,425,Germany,referral,2024-01-12,active
+ACC033,Learn Tech,Education,90,USA,google_ads,2024-01-12,active
+ACC034,Cloud Services,Technology,650,France,website,2024-01-12,active
+ACC035,Finance Tech,Financial,325,USA,linkedin,2024-01-13,active
+ACC036,Retail Systems,Retail,1200,UK,conference,2024-01-13,churned
+ACC037,Med Solutions,Healthcare,550,Canada,google_ads,2024-01-13,active
+ACC038,Tech Education,Education,175,USA,website,2024-01-14,active
+ACC039,Data Systems,Technology,425,Germany,linkedin,2024-01-14,active
+ACC040,Health Tech,Healthcare,800,USA,referral,2024-01-14,active
+ACC041,Learn Solutions,Education,125,UK,google_ads,2024-01-15,churned
+ACC042,Finance Systems,Financial,1500,USA,website,2024-01-15,active
+ACC043,Tech Retail,Retail,375,Canada,linkedin,2024-01-15,active
+ACC044,Cloud Tech,Technology,275,France,conference,2024-01-16,active
+ACC045,Medical Systems,Healthcare,650,USA,google_ads,2024-01-16,active
+ACC046,Edu Tech Plus,Education,200,Germany,website,2024-01-16,churned
+ACC047,Finance Plus,Financial,900,UK,linkedin,2024-01-17,active
+ACC048,Retail Tech,Retail,425,USA,referral,2024-01-17,active
+ACC049,Tech Solutions,Technology,550,Canada,google_ads,2024-01-17,active
+ACC050,Health Plus,Healthcare,750,USA,website,2024-01-18,active
+ACC051,Learn Plus,Education,150,France,linkedin,2024-01-18,churned
+ACC052,Banking Tech,Financial,2500,Germany,conference,2024-01-18,active
+ACC053,Retail Plus,Retail,850,USA,google_ads,2024-01-19,active
+ACC054,Tech Systems,Technology,375,UK,website,2024-01-19,active
+ACC055,Medical Tech,Healthcare,600,Canada,linkedin,2024-01-19,active
+ACC056,Edu Systems,Education,225,USA,referral,2024-01-20,churned
+ACC057,Finance Solutions,Financial,1100,France,google_ads,2024-01-20,active
+ACC058,Tech Retail Solutions,Retail,475,Germany,website,2024-01-20,active
+ACC059,Cloud Solutions,Technology,325,USA,linkedin,2024-01-21,active
+ACC060,Health Solutions,Healthcare,700,UK,conference,2024-01-21,active
+ACC061,Learn Systems,Education,175,Canada,google_ads,2024-01-21,churned
+ACC062,Tech Finance,Financial,950,USA,website,2024-01-22,active
+ACC063,Retail Systems Plus,Retail,525,France,linkedin,2024-01-22,active
+ACC064,Tech Cloud,Technology,400,Germany,referral,2024-01-22,active
+ACC065,Medical Plus,Healthcare,850,USA,google_ads,2024-01-23,active
+ACC066,Edu Plus,Education,125,UK,website,2024-01-23,churned
+ACC067,Finance Tech Plus,Financial,1300,Canada,linkedin,2024-01-23,active
+ACC068,Tech Plus,Technology,275,USA,conference,2024-01-24,active
+ACC069,Retail Solutions Plus,Retail,625,France,google_ads,2024-01-24,active
+ACC070,Health Systems Plus,Healthcare,775,Germany,website,2024-01-24,active
+ACC071,Learn Tech Plus,Education,200,USA,linkedin,2024-01-25,churned
+ACC072,Banking Solutions,Financial,1700,UK,referral,2024-01-25,active
+ACC073,Tech Systems Plus,Technology,450,Canada,google_ads,2024-01-25,active
+ACC074,Medical Solutions Plus,Healthcare,925,USA,website,2024-01-26,active
+ACC075,Retail Tech Plus,Retail,575,France,linkedin,2024-01-26,active
+ACC076,Cloud Tech Plus,Technology,350,Germany,conference,2024-01-26,churned
+ACC077,Health Tech Plus,Healthcare,825,USA,google_ads,2024-01-27,active
+ACC078,Edu Solutions Plus,Education,150,UK,website,2024-01-27,active
+ACC079,Finance Systems Plus,Financial,1900,Canada,linkedin,2024-01-27,active
+ACC080,Tech Solutions Plus,Technology,425,USA,referral,2024-01-28,active
+ACC081,Medical Tech Plus,Healthcare,875,France,google_ads,2024-01-28,churned
+ACC082,Learn Plus Systems,Education,175,Germany,website,2024-01-28,active
+ACC083,Banking Tech Plus,Financial,2100,USA,linkedin,2024-01-29,active
+ACC084,Retail Plus Systems,Retail,675,UK,conference,2024-01-29,active
+ACC085,Tech Plus Solutions,Technology,375,Canada,google_ads,2024-01-29,active
+ACC086,Health Plus Systems,Healthcare,950,USA,website,2024-01-30,churned
+ACC087,Edu Tech Systems,Education,225,France,linkedin,2024-01-30,active
+ACC088,Finance Plus Systems,Financial,1600,Germany,referral,2024-01-30,active
+ACC089,Tech Retail Plus,Retail,525,USA,google_ads,2024-01-31,active
+ACC090,Cloud Systems Plus,Technology,400,UK,website,2024-01-31,active
+ACC091,Medical Plus Systems,Healthcare,900,Canada,linkedin,2024-01-31,churned
+ACC092,Learn Systems Plus,Education,200,USA,conference,2024-02-01,active
+ACC093,Tech Finance Plus,Financial,1400,France,google_ads,2024-02-01,active
+ACC094,Retail Tech Systems,Retail,625,Germany,website,2024-02-01,active
+ACC095,Tech Cloud Plus,Technology,450,USA,linkedin,2024-02-02,active
+ACC096,Health Solutions Plus,Healthcare,975,UK,referral,2024-02-02,churned
+ACC097,Edu Plus Systems,Education,175,Canada,google_ads,2024-02-02,active
+ACC098,Finance Tech Systems,Financial,1800,USA,website,2024-02-03,active
+ACC099,Tech Plus Systems,Technology,425,France,linkedin,2024-02-03,active
+ACC100,Medical Tech Systems,Healthcare,925,Germany,conference,2024-02-03,active 

@@ -1,0 +1,46 @@
+activity_id,sales_cycle_id,user_id,activity_type,activity_date,duration_minutes,notes
+ACT001,SC001,USR001,Call,2024-01-06,45,Initial discovery call with CTO
+ACT002,SC001,USR001,Demo,2024-01-10,60,Product demo for tech team
+ACT003,SC001,USR001,Trial Started,2024-01-15,0,30-day trial initiated for tech team
+ACT004,SC002,USR002,Text,2024-01-11,0,Follow up on pricing discussion
+ACT005,SC002,USR002,Demo,2024-01-13,45,Demo for potential users
+ACT006,SC003,USR001,Call,2024-01-13,30,Initial scoping call
+ACT007,SC004,USR003,Demo,2024-01-16,45,Demo for decision makers
+ACT008,SC004,USR003,Trial Started,2024-01-18,0,14-day trial started
+ACT009,SC005,USR002,Text,2024-01-19,0,Checking in on trial experience
+ACT010,SC005,USR002,Call,2024-01-20,30,Discussion about budget concerns
+ACT011,SC006,USR001,Call,2024-01-21,45,Enterprise security requirements review
+ACT012,SC006,USR001,Demo,2024-01-23,60,Technical deep dive session
+ACT013,SC007,USR003,Call,2024-01-22,30,Initial enterprise discussion
+ACT014,SC007,USR003,Trial Started,2024-01-25,0,60-day enterprise trial
+ACT015,SC008,USR002,Text,2024-01-23,0,Scheduling technical review
+ACT016,SC008,USR002,Demo,2024-01-24,45,Solution architecture review
+ACT017,SC009,USR001,Call,2024-01-24,30,First contact with decision maker
+ACT018,SC010,USR003,Demo,2024-01-25,45,Product walkthrough
+ACT019,SC010,USR003,Trial Started,2024-01-27,0,30-day trial setup
+ACT020,SC011,USR002,Text,2024-01-26,0,Following up on requirements
+ACT021,SC012,USR001,Call,2024-01-27,45,Enterprise security discussion
+ACT022,SC012,USR001,Demo,2024-01-29,60,Full platform demo
+ACT023,SC013,USR003,Call,2024-01-28,30,Scoping call with IT team
+ACT024,SC014,USR002,Text,2024-01-29,0,Introduction and next steps
+ACT025,SC015,USR001,Demo,2024-01-30,45,Initial platform overview
+ACT026,SC016,USR003,Call,2024-01-16,45,Enterprise needs assessment
+ACT027,SC016,USR003,Demo,2024-01-18,60,Executive team presentation
+ACT028,SC016,USR003,Trial Started,2024-01-20,0,45-day enterprise trial
+ACT029,SC016,USR003,Call,2024-01-25,30,Trial progress review
+ACT030,SC017,USR001,Text,2024-01-17,0,Initial contact made
+ACT031,SC017,USR001,Call,2024-01-19,45,Technical requirements gathering
+ACT032,SC017,USR001,Demo,2024-01-22,60,Technical team demonstration
+ACT033,SC017,USR001,Trial Started,2024-01-24,0,30-day technical validation
+ACT034,SC018,USR002,Call,2024-01-18,45,Enterprise scope discussion
+ACT035,SC018,USR002,Demo,2024-01-20,60,Solution overview
+ACT036,SC018,USR002,Trial Started,2024-01-22,0,30-day enterprise trial
+ACT037,SC018,USR002,Call,2024-01-28,30,Contract negotiation
+ACT038,SC019,USR003,Text,2024-01-19,0,Introduction call scheduling
+ACT039,SC019,USR003,Call,2024-01-21,30,Initial discovery
+ACT040,SC019,USR003,Demo,2024-01-23,45,Product walkthrough
+ACT041,SC019,USR003,Text,2024-01-26,0,Budget misalignment identified
+ACT042,SC020,USR001,Call,2024-01-20,45,First contact with IT manager
+ACT043,SC020,USR001,Text,2024-01-22,0,Following up on requirements
+ACT044,SC020,USR001,Demo,2024-01-24,45,Initial product overview
+ACT045,SC020,USR001,Trial Started,2024-01-26,0,14-day starter trial 

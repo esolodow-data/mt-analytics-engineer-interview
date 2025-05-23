@@ -1,0 +1,6 @@
+user_id,full_name,email,role,team,start_date,status
+USR001,John Smith,john.smith@company.com,account_executive,enterprise,2023-01-01,active
+USR002,Sarah Johnson,sarah.j@company.com,account_executive,mid_market,2023-03-15,active
+USR003,Mike Wilson,mike.w@company.com,account_executive,mid_market,2023-06-01,active
+USR004,Lisa Chen,lisa.c@company.com,solutions_engineer,technical,2023-02-01,active
+USR005,David Park,david.p@company.com,sales_manager,leadership,2023-01-01,active 
