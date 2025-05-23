@@ -19,7 +19,6 @@ You'll be working with these raw data tables:
 3. `users` - Contains information about sales reps and other users.
 
 ## Tasks
-
 1. Create a staging layer from the seeds.
 2. Create a fact and dimension layer from the data.
 3. Create a mart layer that could be used in a BI tool to build dashbaords and perform analysis. It would need to answer these types of questions:
@@ -29,7 +28,6 @@ You'll be working with these raw data tables:
    - What are the most common activities for closed accounts?
 4. Document your models using dbt Docs.
 5. Provide a readme briefly explaining your approach to this assessment.
-
 
 ## Submission
 To submit your assessment, share your forked repo with @jmhollinger (if it is private) and send your recruiter and hiring manager a link to it.
