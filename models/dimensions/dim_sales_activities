@@ -1,4 +1,7 @@
 SELECT
+  activity_id,
+  sales_cycle_id,
+  user_id,
   activity_type,
   activity_notes
 FROM staging.stg_activities
