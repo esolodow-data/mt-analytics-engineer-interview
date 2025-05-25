@@ -10,9 +10,14 @@ SELECT
   acc.country,
   sac.stage,
   sac.probability,
-  
+  us.role,
+  us.team,
+  us.user_status
 FROM fact_sales_cycles fsc
   LEFT JOIN dim_accounts acc
-  ON fsc.account_id = acc.account_id
+    ON fsc.account_id = acc.account_id
   LEFT JOIN dim_sales_cycles sac
-  ON fsc.sales_cycle_id = sac.sales_cycle_id
+    ON fsc.sales_cycle_id = sac.sales_cycle_id
+  LEFT JOIN dim_users us
+    ON fsc.owner_id = us.user_id
+
