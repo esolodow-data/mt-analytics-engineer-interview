@@ -1,4 +1,7 @@
 SELECT
+  sales_cycle_id,
+  account_id,
+  owner_id,
   plan_type,
   stage,
   probability
