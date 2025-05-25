@@ -5,4 +5,4 @@ SELECT
   sc.monthly_recurring_revenue,
   sc.deal_created_at,
   sc.deal_closed_at
-FROM stg_sales_cycles sc
+FROM staging.stg_sales_cycles sc
