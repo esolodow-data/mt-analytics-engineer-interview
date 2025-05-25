@@ -1,0 +1,10 @@
+SELECT
+  account_id,
+  account_name,
+  industry,
+  employee_count,
+  country,
+  account_source,
+  account_created_at,
+  account_status
+FROM staging.stg_accounts 
