@@ -1,0 +1,22 @@
+SELECT
+  fsc.sales_cycle_id,
+  fsc.account_id,
+  fsc.owner_id,
+  fsc.monthly_recurring_revenue,
+  fsc.deal_created_at,
+  fsc.deal_closed_at,
+  acc.account_name,
+  acc.industry,
+  acc.country,
+  sac.stage,
+  sac.probability,
+  us.role,
+  us.team,
+  us.user_status
+FROM fact_sales_cycles fsc
+  LEFT JOIN dim_accounts acc
+    ON fsc.account_id = acc.account_id
+  LEFT JOIN dim_sales_cycles sac
+    ON fsc.sales_cycle_id = sac.sales_cycle_id
+  LEFT JOIN dim_users us
+    ON fsc.owner_id = us.user_id
