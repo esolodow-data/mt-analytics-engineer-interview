@@ -1,0 +1,9 @@
+SELECT
+  user_id,
+  full_name,
+  email,
+  role,
+  team, 
+  user_start_date,
+  user_status
+FROM staging.stg_users 
