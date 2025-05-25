@@ -2,7 +2,7 @@ SELECT
   fsc.sales_cycle_id,
   fsc.account_id,
   fsc.owner_id,
-  fsc.monthly_recurring_revenue,
+  fsc.monthly_recurring_revenue, -- In BI tool would do SUM(monthly_recurring_revenue) and GROUP BY appropriate categories
   fsc.deal_created_at,
   fsc.deal_closed_at,
   acc.account_name,
