@@ -1,0 +1,9 @@
+SELECT
+  CAST(user_id AS VARCHAR) AS user_id,
+  CAST(full_name AS VARCHAR) AS full_name,
+  CAST(email AS VARCHAR) AS email,
+  CAST(role AS VARCHAR) AS role,
+  CAST(team AS VARCHAR) AS team,
+  CAST(start_date AS DATE) AS user_start_date,
+  CAST(status AS VARCHAR) AS user_status
+FROM raw.users
