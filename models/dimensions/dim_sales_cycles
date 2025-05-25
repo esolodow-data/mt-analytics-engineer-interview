@@ -1,0 +1,5 @@
+SELECT
+  plan_type,
+  stage,
+  probability
+FROM staging.stg_sales_cycles
