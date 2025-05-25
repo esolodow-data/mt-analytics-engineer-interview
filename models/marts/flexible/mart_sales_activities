@@ -1,0 +1,25 @@
+SELECT
+  fsa.activity_id,
+  fsa.sales_cycle_id, 
+  fsa.user_id,
+  fsa.actiity_date,
+  fsa.activity_duration,
+  us.role,
+  us.team,
+  dsc.account_id,
+  dsc.plan_type,
+  dsc.stage,
+  acc.account_name,
+  acc.industry,
+  acc.account_status,
+  dac.activity_type,
+  dac.activity_notes
+FROM fact_sales_activities fsa
+  LEFT JOIN dim_users us
+    ON fsa.user_id = us.user_id
+  LEFT JOIN dim_sales_cycles dsc
+    ON fsa.sales_cycle_id = dsc.sales_cycle_id
+  LEFT JOIN dim_accounts acc
+    ON dsc.account_id = acc.account_id
+  LEFT JOIN dim_activities dac
+    ON fsa.activity_id = dac.activity_id
