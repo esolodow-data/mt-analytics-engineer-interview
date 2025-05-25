@@ -18,5 +18,6 @@ This project builds a full data pipeline from raw CSVs to final business-friendl
 
 ## Folder Structure
 
+- `seeds/` - Contains raw CSV files
 - `models/` - Contains SQL transformation logic
 - `docs/` - Data model documentation
