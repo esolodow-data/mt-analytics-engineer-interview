@@ -1,0 +1,11 @@
+SELECT
+  CAST(sales_cycle AS VARCHAR) AS sales_cycle,
+  CAST(account_id AS VARCHAR) AS account_id,
+  CAST(owner_id AS VARCHAR) AS owner_id,
+  CAST(plan_type AS VARCHAR) AS plan_type,
+  CAST(monthly_recurring_revenue AS INTEGER) AS monthly_recurring_revenue,
+  CAST(stage AS VARCHAR) AS stage,
+  CAST(probability AS INTEGER) AS probability, 
+  CAST(created_at AS DATE) AS deal_created_at,
+  CAST(closed_at AS DATE) AS deal_closed_at
+FROM raw.sales_cycles 
