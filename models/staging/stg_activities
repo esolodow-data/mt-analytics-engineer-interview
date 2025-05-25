@@ -1,0 +1,9 @@
+SELECT
+  CAST(activity_id AS VARCHAR) AS activity_id,
+  CAST(sales_cycle_id AS VARCHAR) AS sales_cycle_id,
+  CAST(user_id AS VARCHAR) AS user_id,
+  CAST(activity_type AS VARCHAR) AS activity_type,
+  CAST(activity_date AS DATE) AS activity_date,
+  CAST(duration_minutes AS INTEGER) AS activity_duration,
+  CAST(notes AS VARCHAR) AS activity_notes
+FROM raw.activities
