@@ -1,5 +1,5 @@
 SELECT
-  CAST(sales_cycle AS VARCHAR) AS sales_cycle,
+  CAST(sales_cycle_id AS VARCHAR) AS sales_cycle_id,
   CAST(account_id AS VARCHAR) AS account_id,
   CAST(owner_id AS VARCHAR) AS owner_id,
   CAST(plan_type AS VARCHAR) AS plan_type,
