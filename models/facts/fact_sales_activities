@@ -4,4 +4,4 @@ SELECT
   sa.user_id,
   sa.activity_date, 
   sa.activity_duration
-FROM stg_activities sa
+FROM staging.stg_activities sa
