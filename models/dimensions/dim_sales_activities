@@ -1,0 +1,4 @@
+SELECT
+  activity_type,
+  activity_notes
+FROM staging.stg_activities
