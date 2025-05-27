@@ -21,32 +21,34 @@ Describes sales activities associated with each sales cycle ID.
 
 - Primary Measures: activity_duration
 - Foreign Keys:
-   activity_id --> dim_activities
-   sales_cycle_id --> dim_sales_cycles
-   user_id --> dim_users
+   - activity_id --> dim_activities
+   - sales_cycle_id --> dim_sales_cycles
+   - user_id --> dim_users
 
 ### `fact_sales_cycles`
 Describes sales deal information associated with revenue.
 
 - Primary Measures: monthly_recurring_revenue
 - Foreign Keys:
-   sales_cycle_id --> dim_sales_cycles
-   account_id --> dim_accounts
-   owner_id --> dim_users
+   - sales_cycle_id --> dim_sales_cycles
+   - account_id --> dim_accounts
+   - owner_id --> dim_users
 
 ## Marts
 
 ### `mart_sales_cycles`
 Row-level information for each sales cycle ID. 
 
-Business Questions: What is the average or total monthly-recurring_revenue over available dimensions? 
+- Business Questions: What is the average or total monthly-recurring_revenue over available dimensions? 
 
 - Dimension and Fact Tables Included:
-    fact_sales_cycles
-    dim_accounts
-    dim_sales_cycles
-    dim_users
+    - fact_sales_cycles
+    - dim_accounts
+    - dim_sales_cycles
+    - dim_users
+      
 - Key Measures: monthly_recurring_revenue
+  
 - Dimensional Fields:
     - fact_sales_cycle
         - sales_cycle_id
@@ -69,17 +71,19 @@ Business Questions: What is the average or total monthly-recurring_revenue over 
 ### `mart_sales_activities`
 Row-level information for each sales activity associated with a sales cycle ID. 
 
-Business Questions: 
+- Business Questions: 
   - What is the average sales cycle duration over available dimensions?
   - What activities are associated with different account statuses? 
 
 - Dimension and Fact Tables Included:
-    fact_sales_activities
-    dim_accounts
-    dim_sales_cycles
-    dim_users
-    dim_activities
+    - fact_sales_activities
+    - dim_accounts
+    - dim_sales_cycles
+    - dim_users
+    - dim_activities
+      
 - Key Measures: activity_duration
+  
 - Dimensional Fields:
     - fact_sales_activities
         - activity_id
@@ -104,18 +108,23 @@ Business Questions:
 ### `mart_cycle_activity`
 Row-level information combining sales cycle ID information and aggregated activity information.
 
-Business Questions: 
+- Business Questions: 
   - What is the typical order and count of activities for closed accounts?
   - What is the average activity duration across available dimensions?
   - How many touchpoints do we utilize in the sales cycle? 
 
 - Dimension and Fact Tables Included:
-    fact_sales_activities
-    fact_sales_cycles
-    dim_accounts
-    dim_sales_cycles
-    dim_sales_activities
-- Key Measures: total_activities, avg_activity_duration, activity_list
+    - fact_sales_activities
+    - fact_sales_cycles
+    - dim_accounts
+    - dim_sales_cycles
+    - dim_sales_activities
+      
+- Key Measures:
+     - total_activities
+     - avg_activity_duration
+     - activity_list
+  
 - Dimensional Fields:
     - fact_sales_cycles
         - sales_cycle_id
