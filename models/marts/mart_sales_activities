@@ -2,7 +2,7 @@ SELECT
   fsa.activity_id,
   fsa.sales_cycle_id, 
   fsa.user_id,
-  fsa.actiity_date,
+  fsa.activity_date,
   fsa.activity_duration, --within BI tool would do AVG(activity_duration) as an aggregation and GROUP BY categories as needed
   us.role,
   us.team,
