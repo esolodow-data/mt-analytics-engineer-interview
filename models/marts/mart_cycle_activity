@@ -1,0 +1,18 @@
+SELECT
+  fsc.sales_cycle_id,
+  fsc.account_id,  
+  acc.account_name,
+  fsc.owner_id,
+  fsc.monthly_recurring_revenue,
+  dsc.stage,
+  COUNT(fsa.activity_id) AS total_activities, 
+  AVG(fsa.activity_duration) AS avg_activity_duration, 
+  LIST_AGG(fsa.activity_type, ' , ') WITHIN GROUP (ORDER BY fsa.activity_date) AS activity_list
+FROM fact_sales_cycles fsc
+  LEFT JOIN fact_sales_activities fsa
+  ON fsc.sales_cycle_id = fsa.sales_cycle_id
+  LEFT JOIN dim_accounts acc
+    ON fsc.account_id = acc.account_id
+  LEFT JOIN dim_sales_cycles dsc
+    ON fsc.sales_cycle_id = dsc.sales_cycle_id
+GROUP BY 1, 2, 3, 4, 5, 6
